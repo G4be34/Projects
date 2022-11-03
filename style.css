@@ -23,7 +23,7 @@ li {
     color: #f9faf8;
 }
 
-.header-container {
+.header-container, .footer {
     background-color: #1f2937;
 }
 
@@ -33,4 +33,32 @@ button {
     border-radius: 10px;
     padding: 5px 20px 5px 20px;
     border-style: none;
+}
+
+.content-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.body-content-2 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.footer {
+    color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-owner {
+    font-weight: bold;
+}
+
+.content-text {
+    background-color: #3882f6;
 }
