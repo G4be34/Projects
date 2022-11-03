@@ -1,6 +1,9 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 li {
@@ -9,6 +12,7 @@ li {
 }
 
 .header-logo {
+    display: flex;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -69,4 +73,21 @@ button {
 
 img {
     border: 5px solid #3882f6;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 5px 15px 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
 }
