@@ -97,8 +97,10 @@ img {
 .content-and-image {
     display: flex;
     justify-content: space-between;
-}
+    
+}  
 
 .body-content-1 {
     display: flex;
 }
+
