@@ -7,14 +7,17 @@
 }
 
 li {
+    display: inline-block;
     list-style: none;
     color: #e5e7eb;
+    padding: 0 20px;
 }
 
 .header-logo {
     display: flex;
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header-content-body {
@@ -27,7 +30,7 @@ li {
     color: #f9faf8;
 }
 
-.header-container, .footer {
+.header-container-1, .footer {
     background-color: #1f2937;
 }
 
@@ -77,17 +80,18 @@ img {
 
 .header {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 15px 5px 15px 5px;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.header-container {
-    display: flex;
+    width: 75%;
     justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content-and-image {
+    display: flex;
+    
 }
