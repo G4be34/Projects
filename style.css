@@ -32,7 +32,7 @@ button {
     color: #f9faf8;
     border-radius: 10px;
     padding: 5px 20px 5px 20px;
-    border-style: none;
+    border: 2px solid #1f2937;
 }
 
 .content-header {
@@ -61,4 +61,12 @@ button {
 
 .content-text {
     background-color: #3882f6;
+}
+
+#button-2 {
+    border:2px solid #f6f7f8;
+}
+
+img {
+    border: 5px solid #3882f6;
 }
