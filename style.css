@@ -97,10 +97,32 @@ img {
 .content-and-image {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 75%;
     
 }  
 
 .body-content-1 {
     display: flex;
+    flex-direction: column;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-list {
+    display: flex;
+    width: 75%;
+    height: 300px;
+    
+}
