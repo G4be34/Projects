@@ -4,3 +4,31 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#header-image {
+    width: 500px;
+    height: 250px;
+    object-fit: fill;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.header-container-1 {
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
