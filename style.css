@@ -116,5 +116,29 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+ }
+
+.sub-flex-container-3 {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.body-content-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    width: 900px;
+    margin: auto;
+}
+
+.quote-owner {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
