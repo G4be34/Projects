@@ -37,7 +37,8 @@ img {
     font-size: 18px;
     color: #e5e7eb;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 18px;
 }
 
 li {
@@ -52,4 +53,37 @@ ul {
 
 .header-container-1 {
     padding: 0 150px;
+    
+}
+
+.header-content-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.header-content-body {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.content-and-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.header-content {
+    width: 450px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
