@@ -21,6 +21,9 @@ img {
     width: 200px;
     height: 200px;
     object-fit: fill;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
 
 .sub-flex-container-1 {
@@ -96,4 +99,19 @@ button {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.image-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
 }
